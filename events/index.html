@@ -32,11 +32,18 @@
 					font-weight: bold;
 					text-decoration: none;
 				}
-                table.yel{
-                    border: solid black 1.5px;
-                    background-color: grey;
-                }
-	</style>
+				table.yel{
+					display: table;
+					border-collapse: separate;
+					border: solid black 2.5px;
+					box-sizing: border-box;
+					text-indent: initial;
+					unicode-bidi: isolate;
+					border-spacing: 5px;
+					border-color: gray;
+					padding: 1px 5px;
+				}
+		</style>
         </header>
         <body>
             <h1>Hi :3</h1>
@@ -52,12 +59,22 @@
 			</div>
 			<br>
 			<h3>Events: </h3>
-            <h5>Yapira Endurance League</h5>
+            <h5>Yapira Endurance League: </h5>
             <table class="yel">
-                <tr>
-                    <td><img src="https://raw.githubusercontent.com/GustaLOLE/stk-yapira/refs/heads/yapira/img/logo_yel.png" style="width: 48px; height: 48px; border: solid black 0.5px;"></img></td>
-                    <td><a href="https://gustalole.github.io/stk-yapira/events/yapira-enduro.html" class="eventslink">YEL 1st Edition</a></td>
-                </tr>
+			    <thead>
+					<th>Logo</th>
+					<th>Name</th>
+					<th>When</th>
+					<th>Main page</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src="https://raw.githubusercontent.com/GustaLOLE/stk-yapira/refs/heads/yapira/img/logo_yel.png" style="width: 24px; height: 24px; border: solid black 0.5px;"></img></td>
+						<td>YEL 1st Edition</td>
+						<td>June-September of 2026</td>
+						<td><a href="https://gustalole.github.io/stk-yapira/events/yapira-enduro.html" class="eventslink">Info</a></td>
+					</tr>
+				</tbody>
             </table>
         </body>
     </html>
